@@ -1,0 +1,50 @@
+name: 不具合の報告 / Bug report
+description: うまく動かないことを知らせる / Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ありがとうございます。写真・声の録音・会議の内容など、個人的なものは貼らないでください。
+        Thank you. Please don't attach personal things such as photos, voice recordings or meeting content.
+  - type: textarea
+    id: what
+    attributes:
+      label: 何が起きましたか / What happened?
+      description: 期待したことと、実際に起きたこと / What you expected, and what happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現の手順 / Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: input
+    id: version
+    attributes:
+      label: Vopet の版 / Vopet version
+      description: メニュー「Vopet > Vopet について」 / Menu "Vopet > About Vopet"
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS の版と Mac の機種 / macOS version and Mac model
+      placeholder: "macOS 15.2, MacBook Air (M2)"
+    validations:
+      required: true
+  - type: dropdown
+    id: app
+    attributes:
+      label: 使っている会議アプリ / Meeting app
+      multiple: true
+      options: [Zoom, Google Meet, Microsoft Teams, OBS, その他 / Other]
+  - type: textarea
+    id: more
+    attributes:
+      label: そのほか / Anything else
+      description: 画面のスクリーンショットなど（個人的な内容は消してください） / Screenshots etc. (remove anything personal)

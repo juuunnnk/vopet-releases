@@ -1,0 +1,15 @@
+name: 要望・アイデア / Feature request
+description: こうなったらいいな、を送る / Suggest an idea
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: どんなことをしたいですか / What would you like to do?
+      description: 困っていることや、使いたい場面も書いてもらえると助かります / The situation or problem behind it helps a lot
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: そのほか / Anything else
