@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vopet のページ / Vopet website
+    url: https://n0d4.com/vopet/
+    about: 使い方と紹介 / What Vopet does and how to start
+  - name: 開発を応援する / Support development (Buy Me a Coffee)
+    url: https://buymeacoffee.com/n0d4
+    about: Vopet は無料です。気に入ったら、コーヒー1杯で応援してください / Vopet is free. If you like it, you can buy me a coffee
